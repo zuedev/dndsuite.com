@@ -1,0 +1,48 @@
+{
+  "vessels": {
+    "glass_vial": {
+      "name": "Glass Vial",
+      "description": "Standard glass vials used for most potions",
+      "effect": "Potion",
+      "borderColour": "#a8ccd7"
+    },
+    "bomb": {
+      "name": "Bomb",
+      "description": "An explosive device that explodes upon contact with fire",
+      "effect": "Bomb",
+      "borderColour": "#000"
+    }
+  },
+  "bases": {
+    "water": {
+      "name": "Water",
+      "description": "Classic H<sub>2</sub>O",
+      "effect": "Mundane"
+    }
+  },
+  "primers": {
+    "salveroot": {
+      "name": "Salve Root",
+      "description": "The red root of a deadly bloodvine",
+      "effect": "Healing",
+      "effectText": "Heals wounds",
+      "colourBackground": "#8a0303",
+      "colourText": "#FFD700"
+    },
+    "nightshade": {
+      "name": "Nightshade",
+      "description": "A purple flower with white petal-tips",
+      "effect": "Invisibility",
+      "effectText": "You become invisible",
+      "colourBackground": "#301934",
+      "colourText": "#fff"
+    }
+  },
+  "catalysts": {
+    "sea_salt": {
+      "name": "Sea Salt",
+      "description": "An edible mineral refined from sea water",
+      "effect": "Simple"
+    }
+  }
+}

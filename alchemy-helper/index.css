@@ -1,0 +1,91 @@
+@import url("https://cdn.jsdelivr.net/npm/water.css@2/out/water.css");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+img.emoji {
+  height: 1em;
+  width: 1em;
+  margin: 0 0.05em 0 0.1em;
+  vertical-align: -0.1em;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-body: #222;
+  }
+}
+
+body {
+  font-family: "Merriweather", serif;
+}
+
+nav {
+  backdrop-filter: brightness(60%);
+  padding: 5px;
+  text-align: center;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+label {
+  display: inline-block;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h3.subtitle {
+  opacity: 0.5;
+  margin-top: 0;
+}
+
+form {
+  backdrop-filter: brightness(80%);
+  padding: 2rem;
+}
+
+form select {
+  display: inline-block;
+  background-color: white;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: auto;
+}
+
+@media (prefers-color-scheme: dark) {
+  form select {
+    background-color: #111;
+  }
+}
+
+prefer form span {
+  width: 100%;
+}
+
+form h2 {
+  margin: 1rem 0;
+}
+
+form hr {
+  margin: 0;
+}
+
+#result {
+  mix-blend-mode: difference;
+  margin: 0;
+  padding: 1rem;
+  width: fit-content;
+}
+
+abbr {
+  text-decoration: underline dotted 1px grey;
+}
+
+body > footer {
+  border-top: none;
+  margin-top: 1rem;
+  text-align: center;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eldragiir Alchemy Helper</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚗️</text></svg>"
+    />
+    <script
+      src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1>⚗️ Eldragiir Alchemy Helper</h1>
+    <h3 class="subtitle">
+      A.K.A. The DM got bored one day and made this so enjoy.
+    </h3>
+    <nav>
+      <ul>
+        <li>
+          <!-- <a href="javascript:null" data-micromodal-trigger="modal-1">HELP</a> -->
+        </li>
+      </ul>
+    </nav>
+    <form>
+      <span>
+        <label for="vessel">
+          <abbr title="How the payload is stored and released"> Vessel: </abbr>
+        </label>
+        <select id="vessel" name="vessel">
+          <option value="none">None</option>
+        </select>
+        <div id="vessel-description"></div>
+      </span>
+      <br />
+      <span>
+        <label for="base">
+          <abbr title="Determines the potency of the payload"> Base: </abbr>
+        </label>
+        <select id="base" name="base">
+          <option value="none">None</option>
+        </select>
+        <div id="base-description"></div>
+      </span>
+      <br />
+      <span>
+        <label for="primer">
+          <abbr title="The effect the payload"> Primer: </abbr>
+        </label>
+        <select id="primer" name="primer">
+          <option value="none">None</option>
+        </select>
+        <div id="primer-description"></div>
+      </span>
+      <br />
+      <span>
+        <label for="catalyst">
+          <abbr title="Modifies the effect of the payload"> Catalyst: </abbr>
+        </label>
+        <select id="catalyst" name="catalyst">
+          <option value="none">None</option>
+        </select>
+        <div id="catalyst-description"></div>
+      </span>
+      <br />
+      <hr />
+      <h2>Result</h2>
+      <div id="result"></div>
+    </form>
+    <footer>
+      Made with ❤️ by <a href="https://github.com/zuedev">zuedev</a>
+    </footer>
+  </body>
+  <script src="index.js" type="module"></script>
+  <script nomodule>
+    alert(
+      "This page is not supported by your browser. Please use the latest version of Chrome, Firefox, or Edge."
+    );
+  </script>
+</html>
